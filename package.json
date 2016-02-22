@@ -3,6 +3,10 @@
 	"version":     "0.0.5",
 	"description": "CrazyFlie control software",
 	"author":      "C J Silverio <ceejceej@gmail.com>",
+	"contributors": [{
+		"name": "Rowell Heria",
+		"email": "rowellheria@gmail.com"
+		}],
 	"license":     "MIT",
 	"main":        "index.js",
 	"scripts":
@@ -17,11 +21,11 @@
 	],
 	"dependencies":
 	{
-		"lodash":        "*",
-		"optimist":      "*",
-		"usb":           "*",
-		"p-promise":     "*",
-		"state-machine": "*"
+		"lodash":        "4.5.1",
+		"optimist":      "0.6.1",
+		"usb":           "1.1.1",
+		"p-promise":     "0.5.0",
+		"state-machine": "0.0.3"
 	},
 	"devDependencies":
 	{
